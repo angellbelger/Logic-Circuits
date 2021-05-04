@@ -1,0 +1,45 @@
+Logic Circuits 
+Due to the scarcity of professionals who master the basic concepts of digital computing, the mining
+company Miner Barro contacted Unicesumar in search of interns to assist in the construction
+and maintenance of some logic circuits. You have applied for the vacancy available, stating in your
+resume that you have mastered the construction of circuits with logic gates.
+During your early days, you underwent brief training on how the mining company works. His supervisor
+explained that there is a process of refinement of ores extracted from a river, which takes into account
+different equipment and machinery.
+Basically, there is a system that captures muddy water and pumps this raw material to the refining
+station using a pressurized air pump. After that, a series of robots equipped with sensors and actuators
+perform the process of sorting and separating waste and waste.
+Once you have the desired ore, it is poured into a high-temperature boiler, in which there is a proximity
+sensor that prevents employees from getting too close for safety reasons. Due to the high temperatures used in the mining process, the mining company has a fire prevention system.
+Therefore, there is an employee who manually checks the following conditions every 4 hours, as the mining
+company can only operate if all conditions are met:
+1) In order for the pressurizer and the air pump to work, there must be sufficient electrical energy (E)
+or the combustion energy generator (G) is turned on. It is not permissible that both electricity is
+available and the combustion generator is operating simultaneously. That is, only one of them should be
+available for financial reasons.
+2) In addition to the existence of energy (through the electrical network, or through combustion), the
+electrical switch (C) must be connected. Therefore, the electric switch determines when the pump and
+pressurizer, as well as the actuators and sensors, are in operation.
+3) Finally, both the fire alarm and the proximity sensors must be connected via the respective switch (I).
+Knowing this, as a proactive intern, you must develop a circuit with logic gates that simulate the
+automation of conditions that would currently be checked manually. For this, you should consider that:
+E: it is the input signal related to the availability of electrical energy from the electrical network;
+G: is the input signal that indicates whether the combustion generator is connected or not;
+C: it is the input signal related to the activation of the pump key, pressurizer, sensors and actuators
+of the mining process;
+I: is the input signal that indicates whether the proximity and fire sensors are on;
+S: it is the exit signal that indicates that the mining operation can proceed normally, as long as we
+have energy, the key is activated and the senders are operational.
+Remember that logic value 1 (true / on) corresponds to the activation of the respective input / output
+signal. In addition, logic value 0 (false/off) corresponds to the absence of a signal.
+Thus, the student is asked to elaborate (design) the logic circuit listing all the inputs, output, the
+logic gates used, as well as the existing connections necessary for the circuit to function
+as explained above, in addition to presenting the logic circuit the student must prepare the truth
+table corresponding to the logical expression that represents the circuit designed. In order for your
+activity to be corrected, send a PDF file containing the circuit image and the truth table, containing
+all inputs and outputs, as requested by the statement.
+
+
+
+
+
