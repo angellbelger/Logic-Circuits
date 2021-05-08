@@ -21,16 +21,17 @@ def readbin(txt):
 
 
 print('{}Hello, world.{}'.format('\033[36m', '\033[m'))
-
 while True:
     case["E"] = readbin('"\033[32mE\033[m" is On or Off: ')
     case["G"] = readbin('"\033[32mG\033[m" is On or Off: ')
     case["C"] = readbin('"\033[32mC\033[m" is On or Off: ')
     case["I"] = readbin('"\033[32mI\033[m" is On or Off: ')
-    if case["E"] == 0 and case["G"] == 1 and case["C"] == case["I"] == 1:
-        print('{}It is Ok{}'.format('\033[34m', '\033[m'))
-    elif case ["E"] == 1 and case["G"] == 0 and case["C"] == case["I"] == 1:
+    if case["E"] == 0 and case["G"] == 1 and case["C"] == case["I"] == 1 or case ["E"] == 1 and case["G"] == 0 and case["C"] == case["I"] == 1:
         print('{}It is Ok{}'.format('\033[34m', '\033[m'))
     else:
         print('{}Attention! We have a problem.{}'.format('\033[31m', '\033[m'))
-    break
+    answer = str(input('Do you want to continue [\033[34mY | \033[31mN\033[m]]? ')).title()[0]
+    if answer == 'N':
+        break
+    else:
+        print('Another test.')
