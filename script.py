@@ -11,7 +11,6 @@ def readbin(txt):
                 x = int(input(txt))
                 if x == 0 or x == 1:
                     ok = False
-                
                 elif x != 1 or x != 0:
                     print('Type a number, \033[31m0\033[m to \033[31mOff\033[m or \033[34m1\033[m to \033[34mOn\033[m')
         except:
